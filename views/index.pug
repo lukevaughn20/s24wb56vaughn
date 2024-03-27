@@ -5,7 +5,7 @@ block content
   p This is the new change to the index
   button(type="button", class="btn btn-secondary" onclick="double()") I am a button
   div(id="double") Up the amount
-  a#https://s24wb56vaughn.onrender.com/pizza
+  
   script.
     value = 0;
     power = 1;
@@ -14,4 +14,6 @@ block content
       power = power * 2;
       document.getElementById("double").innerHTML = "Two to the power " + value + " is " + power
     }
+
+  a(href='/pizza') https://s24wb56vaughn.onrender.com/pizza
 
